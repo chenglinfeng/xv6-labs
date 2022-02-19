@@ -1,0 +1,16 @@
+[1mdiff --git a/Makefile b/Makefile[m
+[1mindex 457b001..2f2acdc 100644[m
+[1m--- a/Makefile[m
+[1m+++ b/Makefile[m
+[36m@@ -149,6 +149,11 @@[m [mUPROGS=\[m
+ 	$U/_grind\[m
+ 	$U/_wc\[m
+ 	$U/_zombie\[m
+[32m+[m	[32m$U/_primes\[m
+[32m+[m	[32m$U/_xargs\[m
+[32m+[m	[32m$U/_sleep\[m
+[32m+[m	[32m$U/_pingpong\[m
+[32m+[m	[32m$U/_find\[m
+ [m
+ ifeq ($(LAB),syscall)[m
+ UPROGS += \[m
